@@ -1,0 +1,45 @@
+#title-text{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+}
+.task-display{
+  border: solid 2px black;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* .task-display li {
+  font-size: 1.2em;
+  margin-top: 2px;
+  margin-bottom:2px;
+  border: solid 2px black;
+} */
+#task-delete{
+  float: right;
+  /* margin-right: 30px; */
+  margin-top: 5px;
+}
+/* .tasks-list{
+  list-style: none;
+  background-color: grey;
+} */
+
+.tasks-list li{
+  list-style: none;
+  border: solid 2px black;
+  background-color: grey;
+  min-height: 30px;
+  margin-top: 1%;
+  color: snow;
+}
+.tasks-list{
+  padding-left:2px;
+  padding-right:2px;
+}
